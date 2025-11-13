@@ -1,0 +1,83 @@
+/* 1. Global Reset & Base Styles */
+body {
+    /* Set a neutral, readable font */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0; /* Remove default browser margins */
+    padding: 0;
+    background-color: #f4f4f9; /* Light, slightly cool background */
+    color: #333; /* Dark text for high readability */
+}
+
+/* Container for the main content to center it and set a max width */
+body > * {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px; /* Padding on the sides for smaller screens */
+}
+
+/* 2. Header and Headings */
+header {
+    background-color: #007bff; /* A nice, professional blue */
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    /* Style section titles */
+    color: #007bff;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    font-size: 1.5em;
+}
+
+/* 3. Section Styling */
+section {
+    background-color: white;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* 4. List Styling (Skills, Education, Contact) */
+ul {
+    list-style-type: square; /* Use square bullets for distinction */
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* 5. Image Styling */
+#image img {
+    /* Style for your profile picture */
+    display: block; /* Ensures the image is on its own line */
+    width: 150px; /* Set a fixed size */
+    height: 150px;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 50%; /* Makes it a circle */
+    border: 4px solid #007bff; /* A nice border matching the header */
+    margin: 10px auto 20px auto; /* Center the image */
+}
+
+/* 6. Emphasis (If you decide to re-add bolding in HTML) */
+strong {
+    font-weight: bold;
+    color: #0056b3; /* Darker shade of blue for contrast */
+}
+
+/* 7. Paragraph Spacing */
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
